@@ -100,6 +100,7 @@ LOCAL_C_INCLUDES:= \
         $(TOP)/external/tremolo \
         $(TOP)/external/libvpx/libwebm \
         $(TOP)/system/netd/include \
+	$(TOP)/device/samsung/hlte-common/include \
 
 LOCAL_SHARED_LIBRARIES := \
         libbinder \

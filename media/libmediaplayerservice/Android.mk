@@ -57,6 +57,7 @@ LOCAL_C_INCLUDES :=                                                 \
     $(TOP)/external/tremolo/Tremolo                                 \
     $(TOP)/frameworks/av/media/libavextensions                      \
     $(TOP)/frameworks/av/media/libstagefright/mpeg2ts               \
+    $(TOP)/device/samsung/hlte-common/include			    \
 
 LOCAL_CFLAGS += -Werror -Wno-error=deprecated-declarations -Wall
 LOCAL_CLANG := true

@@ -74,7 +74,8 @@ LOCAL_C_INCLUDES += \
     system/media/camera/include \
     system/media/private/camera/include \
     frameworks/native/include/media/openmax \
-    external/jpeg
+    external/jpeg \
+    device/samsung/hlte-common/include
 
 
 LOCAL_CFLAGS += -Wall -Wextra

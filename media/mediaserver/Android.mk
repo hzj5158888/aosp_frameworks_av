@@ -48,7 +48,8 @@ LOCAL_C_INCLUDES := \
     $(call include-path-for, audio-utils) \
     frameworks/av/services/soundtrigger \
     frameworks/av/services/radio \
-    external/sonic
+    external/sonic \
+    device/samsung/hlte-common/include
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_LISTEN)),true)
 LOCAL_SHARED_LIBRARIES += liblisten
